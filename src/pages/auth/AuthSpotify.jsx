@@ -5,7 +5,7 @@ import { setToken } from '../../redux/slice';
 
 const { REACT_APP_CLIENT_ID } = process.env;
 const SCOPES = 'playlist-modify-private';
-const REDIRECT_URI = 'https://gigih-homework-green.vercel.app/';
+const REDIRECT_URI = 'https://gigih-finalproject.vercel.app/';
 
 export default function AuthSpotify() {
   const dispatch = useDispatch();
